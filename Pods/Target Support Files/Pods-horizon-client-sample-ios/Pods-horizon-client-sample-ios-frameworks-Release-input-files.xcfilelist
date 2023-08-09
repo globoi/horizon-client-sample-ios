@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios/Pods-horizon-client-sample-ios-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/HorizonClient/HorizonClient.framework/HorizonClient

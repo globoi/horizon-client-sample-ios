@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C341F216BD69D288BB4EC28B /* Pods_horizon_client_sample_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF3AACA314D8C32F830CF80 /* Pods_horizon_client_sample_ios.framework */; };
+		D2DE7E572A83DC2900EF1408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E562A83DC2900EF1408 /* AppDelegate.swift */; };
+		D2DE7E592A83DC2900EF1408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E582A83DC2900EF1408 /* SceneDelegate.swift */; };
+		D2DE7E602A83DC2B00EF1408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DE7E5F2A83DC2B00EF1408 /* Assets.xcassets */; };
+		D2DE7E632A83DC2B00EF1408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DE7E612A83DC2B00EF1408 /* LaunchScreen.storyboard */; };
+		D2DE7E6E2A83DC2B00EF1408 /* horizon_client_sample_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E6D2A83DC2B00EF1408 /* horizon_client_sample_iosTests.swift */; };
+		D2DE7E782A83DC2B00EF1408 /* horizon_client_sample_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E772A83DC2B00EF1408 /* horizon_client_sample_iosUITests.swift */; };
+		D2DE7E7A2A83DC2B00EF1408 /* horizon_client_sample_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E792A83DC2B00EF1408 /* horizon_client_sample_iosUITestsLaunchTests.swift */; };
+		D2DE7E892A83E56600EF1408 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E882A83E56600EF1408 /* HomeViewController.swift */; };
+		D2DE7E8B2A83E59D00EF1408 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E8A2A83E59D00EF1408 /* HomeViewModel.swift */; };
+		D2DE7E8D2A83E5EA00EF1408 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DE7E8C2A83E5EA00EF1408 /* Layout.swift */; };
+		D96F84CF1379BBA44874964E /* Pods_horizon_client_sample_ios_horizon_client_sample_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76185287F6B16D474D83B667 /* Pods_horizon_client_sample_ios_horizon_client_sample_iosUITests.framework */; };
+		DC00C750749A9E628E566D35 /* Pods_horizon_client_sample_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F0B3A0C6CF9A1F385B2D9 /* Pods_horizon_client_sample_iosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DE7E6A2A83DC2B00EF1408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DE7E4B2A83DC2900EF1408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DE7E522A83DC2900EF1408;
+			remoteInfo = "horizon-client-sample-ios";
+		};
+		D2DE7E742A83DC2B00EF1408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DE7E4B2A83DC2900EF1408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DE7E522A83DC2900EF1408;
+			remoteInfo = "horizon-client-sample-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00610A13F3CDF9EFF573232D /* Pods-horizon-client-sample-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horizon-client-sample-iosTests.release.xcconfig"; path = "Target Support Files/Pods-horizon-client-sample-iosTests/Pods-horizon-client-sample-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		082539104B24FF3BF2741E8B /* Pods-horizon-client-sample-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horizon-client-sample-ios.debug.xcconfig"; path = "Target Support Files/Pods-horizon-client-sample-ios/Pods-horizon-client-sample-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE2E23CBCC0A41F2CBC1064 /* Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EF3AACA314D8C32F830CF80 /* Pods_horizon_client_sample_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horizon_client_sample_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DACB07137071C3A4A1BB1E7 /* Pods-horizon-client-sample-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horizon-client-sample-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-horizon-client-sample-iosTests/Pods-horizon-client-sample-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76185287F6B16D474D83B667 /* Pods_horizon_client_sample_ios_horizon_client_sample_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horizon_client_sample_ios_horizon_client_sample_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF511C2220F9DD6F859B3DCA /* Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2DE7E532A83DC2900EF1408 /* horizon-client-sample-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "horizon-client-sample-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DE7E562A83DC2900EF1408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2DE7E582A83DC2900EF1408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2DE7E5F2A83DC2B00EF1408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DE7E622A83DC2B00EF1408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2DE7E642A83DC2B00EF1408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DE7E692A83DC2B00EF1408 /* horizon-client-sample-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "horizon-client-sample-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DE7E6D2A83DC2B00EF1408 /* horizon_client_sample_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizon_client_sample_iosTests.swift; sourceTree = "<group>"; };
+		D2DE7E732A83DC2B00EF1408 /* horizon-client-sample-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "horizon-client-sample-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DE7E772A83DC2B00EF1408 /* horizon_client_sample_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizon_client_sample_iosUITests.swift; sourceTree = "<group>"; };
+		D2DE7E792A83DC2B00EF1408 /* horizon_client_sample_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizon_client_sample_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2DE7E882A83E56600EF1408 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D2DE7E8A2A83E59D00EF1408 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D2DE7E8C2A83E5EA00EF1408 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		D67F0B3A0C6CF9A1F385B2D9 /* Pods_horizon_client_sample_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horizon_client_sample_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D9922DF0E91042BEEC1828 /* Pods-horizon-client-sample-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horizon-client-sample-ios.release.xcconfig"; path = "Target Support Files/Pods-horizon-client-sample-ios/Pods-horizon-client-sample-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DE7E502A83DC2900EF1408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C341F216BD69D288BB4EC28B /* Pods_horizon_client_sample_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE7E662A83DC2B00EF1408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC00C750749A9E628E566D35 /* Pods_horizon_client_sample_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE7E702A83DC2B00EF1408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96F84CF1379BBA44874964E /* Pods_horizon_client_sample_ios_horizon_client_sample_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44099CBC9A8860D8549A8D68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				082539104B24FF3BF2741E8B /* Pods-horizon-client-sample-ios.debug.xcconfig */,
+				E9D9922DF0E91042BEEC1828 /* Pods-horizon-client-sample-ios.release.xcconfig */,
+				2DE2E23CBCC0A41F2CBC1064 /* Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.debug.xcconfig */,
+				BF511C2220F9DD6F859B3DCA /* Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.release.xcconfig */,
+				4DACB07137071C3A4A1BB1E7 /* Pods-horizon-client-sample-iosTests.debug.xcconfig */,
+				00610A13F3CDF9EFF573232D /* Pods-horizon-client-sample-iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF4DFBCC1600885FBA8A4EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3AACA314D8C32F830CF80 /* Pods_horizon_client_sample_ios.framework */,
+				76185287F6B16D474D83B667 /* Pods_horizon_client_sample_ios_horizon_client_sample_iosUITests.framework */,
+				D67F0B3A0C6CF9A1F385B2D9 /* Pods_horizon_client_sample_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DE7E4A2A83DC2900EF1408 = {
+			isa = PBXGroup;
+			children = (
+				D2DE7E552A83DC2900EF1408 /* horizon-client-sample-ios */,
+				D2DE7E6C2A83DC2B00EF1408 /* horizon-client-sample-iosTests */,
+				D2DE7E762A83DC2B00EF1408 /* horizon-client-sample-iosUITests */,
+				D2DE7E542A83DC2900EF1408 /* Products */,
+				44099CBC9A8860D8549A8D68 /* Pods */,
+				BF4DFBCC1600885FBA8A4EF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DE7E542A83DC2900EF1408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE7E532A83DC2900EF1408 /* horizon-client-sample-ios.app */,
+				D2DE7E692A83DC2B00EF1408 /* horizon-client-sample-iosTests.xctest */,
+				D2DE7E732A83DC2B00EF1408 /* horizon-client-sample-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DE7E552A83DC2900EF1408 /* horizon-client-sample-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE7E562A83DC2900EF1408 /* AppDelegate.swift */,
+				D2DE7E582A83DC2900EF1408 /* SceneDelegate.swift */,
+				D2DE7E882A83E56600EF1408 /* HomeViewController.swift */,
+				D2DE7E8A2A83E59D00EF1408 /* HomeViewModel.swift */,
+				D2DE7E5F2A83DC2B00EF1408 /* Assets.xcassets */,
+				D2DE7E612A83DC2B00EF1408 /* LaunchScreen.storyboard */,
+				D2DE7E642A83DC2B00EF1408 /* Info.plist */,
+				D2DE7E8C2A83E5EA00EF1408 /* Layout.swift */,
+			);
+			path = "horizon-client-sample-ios";
+			sourceTree = "<group>";
+		};
+		D2DE7E6C2A83DC2B00EF1408 /* horizon-client-sample-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE7E6D2A83DC2B00EF1408 /* horizon_client_sample_iosTests.swift */,
+			);
+			path = "horizon-client-sample-iosTests";
+			sourceTree = "<group>";
+		};
+		D2DE7E762A83DC2B00EF1408 /* horizon-client-sample-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE7E772A83DC2B00EF1408 /* horizon_client_sample_iosUITests.swift */,
+				D2DE7E792A83DC2B00EF1408 /* horizon_client_sample_iosUITestsLaunchTests.swift */,
+			);
+			path = "horizon-client-sample-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DE7E522A83DC2900EF1408 /* horizon-client-sample-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DE7E7D2A83DC2B00EF1408 /* Build configuration list for PBXNativeTarget "horizon-client-sample-ios" */;
+			buildPhases = (
+				AB18ABB1932B8AFE21A22CA5 /* [CP] Check Pods Manifest.lock */,
+				D2DE7E4F2A83DC2900EF1408 /* Sources */,
+				D2DE7E502A83DC2900EF1408 /* Frameworks */,
+				D2DE7E512A83DC2900EF1408 /* Resources */,
+				45889D0B82F6973EDD803BEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "horizon-client-sample-ios";
+			productName = "horizon-client-sample-ios";
+			productReference = D2DE7E532A83DC2900EF1408 /* horizon-client-sample-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2DE7E682A83DC2B00EF1408 /* horizon-client-sample-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DE7E802A83DC2B00EF1408 /* Build configuration list for PBXNativeTarget "horizon-client-sample-iosTests" */;
+			buildPhases = (
+				4A6DE0816E4071FDCF81C082 /* [CP] Check Pods Manifest.lock */,
+				D2DE7E652A83DC2B00EF1408 /* Sources */,
+				D2DE7E662A83DC2B00EF1408 /* Frameworks */,
+				D2DE7E672A83DC2B00EF1408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DE7E6B2A83DC2B00EF1408 /* PBXTargetDependency */,
+			);
+			name = "horizon-client-sample-iosTests";
+			productName = "horizon-client-sample-iosTests";
+			productReference = D2DE7E692A83DC2B00EF1408 /* horizon-client-sample-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2DE7E722A83DC2B00EF1408 /* horizon-client-sample-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DE7E832A83DC2B00EF1408 /* Build configuration list for PBXNativeTarget "horizon-client-sample-iosUITests" */;
+			buildPhases = (
+				B949BB471EA3A9B61CDC8D36 /* [CP] Check Pods Manifest.lock */,
+				D2DE7E6F2A83DC2B00EF1408 /* Sources */,
+				D2DE7E702A83DC2B00EF1408 /* Frameworks */,
+				D2DE7E712A83DC2B00EF1408 /* Resources */,
+				B1324BE7C3845A9E0A2EE35C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DE7E752A83DC2B00EF1408 /* PBXTargetDependency */,
+			);
+			name = "horizon-client-sample-iosUITests";
+			productName = "horizon-client-sample-iosUITests";
+			productReference = D2DE7E732A83DC2B00EF1408 /* horizon-client-sample-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DE7E4B2A83DC2900EF1408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D2DE7E522A83DC2900EF1408 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2DE7E682A83DC2B00EF1408 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D2DE7E522A83DC2900EF1408;
+					};
+					D2DE7E722A83DC2B00EF1408 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D2DE7E522A83DC2900EF1408;
+					};
+				};
+			};
+			buildConfigurationList = D2DE7E4E2A83DC2900EF1408 /* Build configuration list for PBXProject "horizon-client-sample-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DE7E4A2A83DC2900EF1408;
+			productRefGroup = D2DE7E542A83DC2900EF1408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DE7E522A83DC2900EF1408 /* horizon-client-sample-ios */,
+				D2DE7E682A83DC2B00EF1408 /* horizon-client-sample-iosTests */,
+				D2DE7E722A83DC2B00EF1408 /* horizon-client-sample-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DE7E512A83DC2900EF1408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE7E632A83DC2B00EF1408 /* LaunchScreen.storyboard in Resources */,
+				D2DE7E602A83DC2B00EF1408 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE7E672A83DC2B00EF1408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE7E712A83DC2B00EF1408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45889D0B82F6973EDD803BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios/Pods-horizon-client-sample-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios/Pods-horizon-client-sample-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios/Pods-horizon-client-sample-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6DE0816E4071FDCF81C082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-horizon-client-sample-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB18ABB1932B8AFE21A22CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-horizon-client-sample-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1324BE7C3845A9E0A2EE35C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B949BB471EA3A9B61CDC8D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DE7E4F2A83DC2900EF1408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE7E572A83DC2900EF1408 /* AppDelegate.swift in Sources */,
+				D2DE7E592A83DC2900EF1408 /* SceneDelegate.swift in Sources */,
+				D2DE7E8B2A83E59D00EF1408 /* HomeViewModel.swift in Sources */,
+				D2DE7E892A83E56600EF1408 /* HomeViewController.swift in Sources */,
+				D2DE7E8D2A83E5EA00EF1408 /* Layout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE7E652A83DC2B00EF1408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE7E6E2A83DC2B00EF1408 /* horizon_client_sample_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DE7E6F2A83DC2B00EF1408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE7E782A83DC2B00EF1408 /* horizon_client_sample_iosUITests.swift in Sources */,
+				D2DE7E7A2A83DC2B00EF1408 /* horizon_client_sample_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DE7E6B2A83DC2B00EF1408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DE7E522A83DC2900EF1408 /* horizon-client-sample-ios */;
+			targetProxy = D2DE7E6A2A83DC2B00EF1408 /* PBXContainerItemProxy */;
+		};
+		D2DE7E752A83DC2B00EF1408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DE7E522A83DC2900EF1408 /* horizon-client-sample-ios */;
+			targetProxy = D2DE7E742A83DC2B00EF1408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2DE7E612A83DC2B00EF1408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DE7E622A83DC2B00EF1408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2DE7E7B2A83DC2B00EF1408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2DE7E7C2A83DC2B00EF1408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2DE7E7E2A83DC2B00EF1408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082539104B24FF3BF2741E8B /* Pods-horizon-client-sample-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "horizon-client-sample-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aletlima.horizon-client-sample-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DE7E7F2A83DC2B00EF1408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D9922DF0E91042BEEC1828 /* Pods-horizon-client-sample-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "horizon-client-sample-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aletlima.horizon-client-sample-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2DE7E812A83DC2B00EF1408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DACB07137071C3A4A1BB1E7 /* Pods-horizon-client-sample-iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aletlima.horizon-client-sample-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/horizon-client-sample-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/horizon-client-sample-ios";
+			};
+			name = Debug;
+		};
+		D2DE7E822A83DC2B00EF1408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00610A13F3CDF9EFF573232D /* Pods-horizon-client-sample-iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aletlima.horizon-client-sample-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/horizon-client-sample-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/horizon-client-sample-ios";
+			};
+			name = Release;
+		};
+		D2DE7E842A83DC2B00EF1408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE2E23CBCC0A41F2CBC1064 /* Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aletlima.horizon-client-sample-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "horizon-client-sample-ios";
+			};
+			name = Debug;
+		};
+		D2DE7E852A83DC2B00EF1408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF511C2220F9DD6F859B3DCA /* Pods-horizon-client-sample-ios-horizon-client-sample-iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aletlima.horizon-client-sample-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "horizon-client-sample-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DE7E4E2A83DC2900EF1408 /* Build configuration list for PBXProject "horizon-client-sample-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE7E7B2A83DC2B00EF1408 /* Debug */,
+				D2DE7E7C2A83DC2B00EF1408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DE7E7D2A83DC2B00EF1408 /* Build configuration list for PBXNativeTarget "horizon-client-sample-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE7E7E2A83DC2B00EF1408 /* Debug */,
+				D2DE7E7F2A83DC2B00EF1408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DE7E802A83DC2B00EF1408 /* Build configuration list for PBXNativeTarget "horizon-client-sample-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE7E812A83DC2B00EF1408 /* Debug */,
+				D2DE7E822A83DC2B00EF1408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DE7E832A83DC2B00EF1408 /* Build configuration list for PBXNativeTarget "horizon-client-sample-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DE7E842A83DC2B00EF1408 /* Debug */,
+				D2DE7E852A83DC2B00EF1408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DE7E4B2A83DC2900EF1408 /* Project object */;
+}
