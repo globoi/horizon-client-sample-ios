@@ -78,6 +78,8 @@ class HomeViewController: UIViewController {
                                             name: "Show Context ID")
     private lazy var setExternalIdButton = makeButton(target: #selector(setExternalId),
                                             name: "Set External ID")
+    private lazy var showHsidButton = makeButton(target: #selector(showHsid),
+                                            name: "Show hsid")
     private lazy var userLoginButton = makeButton(target: #selector(userLogin),
                                            name: "User Login")
     private lazy var userLogoutButton = makeButton(target: #selector(userLogout),
@@ -94,6 +96,7 @@ class HomeViewController: UIViewController {
         self.contentView.addSubview(getAnonymousButton)
         self.contentView.addSubview(showNewContextIDButton)
         self.contentView.addSubview(setExternalIdButton)
+        self.contentView.addSubview(showHsidButton)
         self.contentView.addSubview(userLoginButton)
         self.contentView.addSubview(userLogoutButton)
     }
@@ -108,7 +111,8 @@ class HomeViewController: UIViewController {
         makeButtonConstraints(button: getAnonymousButton,fatherButton: invalidGenericClickButton)
         makeButtonConstraints(button: showNewContextIDButton,fatherButton: getAnonymousButton)
         makeButtonConstraints(button: setExternalIdButton,fatherButton: showNewContextIDButton)
-        makeButtonConstraints(button: userLoginButton,fatherButton: setExternalIdButton)
+        makeButtonConstraints(button: showHsidButton,fatherButton: setExternalIdButton)
+        makeButtonConstraints(button: userLoginButton,fatherButton: showHsidButton)
         makeButtonConstraints(button: userLogoutButton,fatherButton: userLoginButton, typeButton: .botton)
     }
     
@@ -224,12 +228,6 @@ class HomeViewController: UIViewController {
             }
             
             print("Queued event: \(event.schemaId)")
-            
-            try? HorizonClient.get().getHsid(callbackHsid: { hsid in
-                
-               print("The current value of hsid is: \(hsid)")
-            
-            })
         }
     }
     
@@ -326,6 +324,14 @@ class HomeViewController: UIViewController {
     @objc private func userLogout() {
         do {
             try HorizonClient.removeLoggedUser()
+        } catch {
+            print("Unexpected error: \(error)")
+        }
+    }
+    
+    @objc private func showHsid() {
+        do {
+            print("Current hsid is: ", try HorizonClient.get().getHsid())
         } catch {
             print("Unexpected error: \(error)")
         }
