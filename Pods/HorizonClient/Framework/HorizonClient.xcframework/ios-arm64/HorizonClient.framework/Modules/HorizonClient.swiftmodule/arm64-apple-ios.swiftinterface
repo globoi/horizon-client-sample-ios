@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 effective-4.2 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 effective-4.2 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name HorizonClient
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -44,7 +44,7 @@ public enum ValidationResult {
   @objc public static func setLoggedUser(tokenType: UserTokenType, token: Swift.String) throws
   @objc public static func removeLoggedUser() throws
   @objc public func getAnonymousUser(callbackUser: @escaping (Swift.String, Swift.String, Swift.String?) -> Swift.Void) throws
-  @objc public func getHsid(callbackHsid: @escaping (Swift.String) -> Swift.Void) throws
+  @objc public func getHsid() -> Swift.String
   @objc public func send(schemaId: Swift.String, schemaVersion: Swift.String, contentType: Swift.String, url: Any, referer: Any = "", properties: [Swift.String : Any], relationId: Swift.String? = nil, handler: @escaping (Event, HorizonClientError?) -> Swift.Void)
   @objc public static func createEvent(schemaId: Swift.String, schemaVersion: Swift.String, contentType: Swift.String, url: Any, referer: Any = "", properties: [Swift.String : Any], relationId: Swift.String? = nil) -> Event
   @objc public func send(events: Swift.Array<Event>, relationId: Swift.String? = nil, handler: @escaping (Event, HorizonClientError?) -> Swift.Void)

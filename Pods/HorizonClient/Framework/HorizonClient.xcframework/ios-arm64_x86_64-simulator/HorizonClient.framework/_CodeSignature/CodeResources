@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HorizonClient-Swift.h</key>
 		<data>
-		x6V8gqr0Iv+qn4QdWeaD8NZArrY=
+		/UHi3MPKTwyic4QBIp6Grp7azbQ=
 		</data>
 		<key>Headers/HorizonClient.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j/irNfR5om0SVcyKhgEY6Hu4CBY=
+		CC/meLZqQNi6ff1syUFB2bw3Umo=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tvBdHk/njZ8NkQqEMUwXSSGKqaQ=
+		gnRVe9lpfw98SkOAaPKKv3tK5+E=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		U9zPet1eq3Qq+SaUQJDvp3m+F50=
+		/pbencJioW3HkE0A5kz+1zGj9uI=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		opybW0rlh31pODJU7hrjNRU5/GM=
+		ZTGwI341YsUxamPW9iExZK3t8pQ=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		U9zPet1eq3Qq+SaUQJDvp3m+F50=
+		/pbencJioW3HkE0A5kz+1zGj9uI=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qMqtSEyWZzJ3YHtgOj5Hdt56dxI=
+		SnPfWutB7+/109S0yfSaz+ZVK0Y=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tvBdHk/njZ8NkQqEMUwXSSGKqaQ=
+		gnRVe9lpfw98SkOAaPKKv3tK5+E=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Gl+YXDWV2xPxtRemw9CGg/mzWJU=
+		umYOQ610SBo+23Yx5fhZumEMk7w=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UinV9IGzk+GM/6hrx9cY3AM2+fQ=
+		+/1x5asRkQABMLajd3Zv3phtitw=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Gl+YXDWV2xPxtRemw9CGg/mzWJU=
+		umYOQ610SBo+23Yx5fhZumEMk7w=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eMAL9BjrEozPVQ7Tz2fbvj28CW4=
+		+2W9t0YZj44Q7EJ9lrVVSBteO4I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6P+FLbZSh0dmYdi8vGI4cw2wMr52W5KriUg/93BeQvc=
+			xwReP5XqLp7PNQTbYzLFNQ3yAhpvAE0CgfyKYahIn20=
 			</data>
 		</dict>
 		<key>Headers/HorizonClient.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			On/HUfnb8fZSjjiicO+VdhIPFIGvIG8oEtAa/Du0rWQ=
+			qgVjvAhYGwcBufXGcASJBVb2/Jeqe77SVVCXSS8yY/o=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z9OlSYZA4sAo51K/q+0HRLa/mUhXVf7j86zqHisvKSw=
+			apSCqpzq3AoXthFox5Kt00QHDSABWT3TK9vi42RgGS8=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fUG5z29hYUNWVBl6q+4tKCGxFCbMo8iV32InDqOfGU=
+			xZyM5BIuf/OucW5ck19lszrngZ/8zz8t7etQgFJ9Fm0=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z9OlSYZA4sAo51K/q+0HRLa/mUhXVf7j86zqHisvKSw=
+			apSCqpzq3AoXthFox5Kt00QHDSABWT3TK9vi42RgGS8=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0B+ZGYN0HASgfKBPBL3BRXpgy7PCYbOm8TC8aqRgCDA=
+			zW7QIt1IesNXP7pDhNY59Lu6TNeBC10RuyyQOZjjOJA=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			On/HUfnb8fZSjjiicO+VdhIPFIGvIG8oEtAa/Du0rWQ=
+			qgVjvAhYGwcBufXGcASJBVb2/Jeqe77SVVCXSS8yY/o=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uVs3AVSKlbWqvxF8z/hkYic3nEMHTAHirou/MYsuUAA=
+			l+Fx0u5z5Nq9otf/TKwKxpWoOtoGLpABXuwYjzc0/zg=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tvWamlDtvGy1ZMvxSTc7TaSga0yXQtAu6Ycb9ct/WY0=
+			f0hYRTm/6LelnLJTpDGjI3VA+G1TsnfzXUATiggyVrc=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uVs3AVSKlbWqvxF8z/hkYic3nEMHTAHirou/MYsuUAA=
+			l+Fx0u5z5Nq9otf/TKwKxpWoOtoGLpABXuwYjzc0/zg=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qLXn9zzd0l8AZnvNsgmg5phiKTz7Ye9wLxZXJykPQQ=
+			rUQBIgtkuAAZR8apPwl8e3jTRMFVx+HFLzZNuLWGeYE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

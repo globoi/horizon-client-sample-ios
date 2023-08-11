@@ -7,7 +7,7 @@ target 'horizon-client-sample-ios' do
   use_frameworks!
 
   # Pods for horizon-client-sample-ios
-  pod 'HorizonClient', '~> 3.3.0'
+  pod 'HorizonClient', '~> 3.3.1'
 
   target 'horizon-client-sample-iosTests' do
     inherit! :search_paths
