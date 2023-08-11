@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func initializeHorizon(){
         let tenant = "dev-beta"
-        let envorinment = HorizonEnvironment.prod
+        let envorinment = HorizonEnvironment.qa
         
         if #available(iOS 14, *) {
             switch ATTrackingManager.trackingAuthorizationStatus {
