@@ -17,13 +17,13 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
+  "HorizonClient.xcframework/ios-arm64")
+    echo ""
+    ;;
   "HorizonClient.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
   "HorizonClient.xcframework/tvos-arm64")
-    echo ""
-    ;;
-  "HorizonClient.xcframework/ios-arm64")
     echo ""
     ;;
   "HorizonClient.xcframework/tvos-arm64_x86_64-simulator")
@@ -35,13 +35,13 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
+  "HorizonClient.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
   "HorizonClient.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "HorizonClient.xcframework/tvos-arm64")
-    echo "arm64"
-    ;;
-  "HorizonClient.xcframework/ios-arm64")
     echo "arm64"
     ;;
   "HorizonClient.xcframework/tvos-arm64_x86_64-simulator")
@@ -129,5 +129,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/HorizonClient/Framework/HorizonClient.xcframework" "HorizonClient" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
+install_xcframework "${PODS_ROOT}/HorizonClient/Framework/HorizonClient.xcframework" "HorizonClient" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

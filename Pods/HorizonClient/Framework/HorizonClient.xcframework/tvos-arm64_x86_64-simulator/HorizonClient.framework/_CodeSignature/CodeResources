@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HorizonClient-Swift.h</key>
 		<data>
-		/UHi3MPKTwyic4QBIp6Grp7azbQ=
+		u0GZe/bQCEMMvTUwlOiFf/7gcEk=
 		</data>
 		<key>Headers/HorizonClient.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bDE46SREOExYHZaUjbDJTE9qwII=
+		4jwEfSS4FQkv+N7TQk0p3dBeZVc=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		obE8FWwtI7tXcX0bu+M9wzrYJ4Y=
+		oSWYPUGhUKppfoqWMB5EFMwJXmE=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		c6bQ22W9MXsCb1UHUOtzqmiMhaI=
+		whZVkJxmvXHCro6P7iPv/3q3afQ=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		9Plv4GXLmt2bbY744m8p0bheRb0=
+		Pb4XGqPpUdSXeja/TKpg6gVNi6o=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		c6bQ22W9MXsCb1UHUOtzqmiMhaI=
+		whZVkJxmvXHCro6P7iPv/3q3afQ=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		nq51Nvkz9gbuXGhQJ5taMiell3s=
+		UP8n4mj3vCcXQDZR4k4GIYul7R4=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		obE8FWwtI7tXcX0bu+M9wzrYJ4Y=
+		oSWYPUGhUKppfoqWMB5EFMwJXmE=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		8xWE+tXwe+x3qg08gFmP3LvI/Lw=
+		XVk45X15Qj9exBpCf20f9kYNcG4=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		cQMqTwiTvYM+Wm+S+onHe61vOqQ=
+		waccSwN7N6DfqckSGzZqqZ9VVF4=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		8xWE+tXwe+x3qg08gFmP3LvI/Lw=
+		XVk45X15Qj9exBpCf20f9kYNcG4=
 		</data>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		khJvAmJlSeDu2uTJ1Ei1E3AdRgk=
+		D8N1b73kcIGfSO8j9mgMPSDGopU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xwReP5XqLp7PNQTbYzLFNQ3yAhpvAE0CgfyKYahIn20=
+			qr0j/S3E78QRjxzRG7gHT2tVP0UQoW5GczoEuqct3xw=
 			</data>
 		</dict>
 		<key>Headers/HorizonClient.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Peg8Q3JhIIfIaVBz6ayJ+a3Y1XP50yXJdJXQm+rRvkg=
+			QDTndmh3S+b5UvFkA088v+OMwlGNUGkd9EjB2QdYRgI=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WKPEPXGKgXEtRWxGMkzxC3HN6CupHwWTiDuK01VCy0M=
+			IrN4GEepvhXzK9NVRZqEegafCcT94k8ZD2eGPZ7verE=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f3CXXIe1HfLLo6eybacF0oiGi3snwmJQHSWM8YH/Aaw=
+			e4NKDdwtXk6H7zHOewyzvVnqhnh1N1JllzbvHp44Sak=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WKPEPXGKgXEtRWxGMkzxC3HN6CupHwWTiDuK01VCy0M=
+			IrN4GEepvhXzK9NVRZqEegafCcT94k8ZD2eGPZ7verE=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+c936lEGoc7iWb8AwZx4ImlCF78vqypLjyy17Aborkk=
+			1PU9bD6EWppLOv+Z6se0RCDm3d/TAfJhAg35vvSAB9I=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Peg8Q3JhIIfIaVBz6ayJ+a3Y1XP50yXJdJXQm+rRvkg=
+			QDTndmh3S+b5UvFkA088v+OMwlGNUGkd9EjB2QdYRgI=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mwDUE2+JzcjYE0spQME8ze2kop9JUkQPT35Ee2zq/E=
+			Lc0WSJfgp8YT7cAXrB5yEo93YJ0MRe31VrDdvCb//H4=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			60B8Rxx/R7Wg9jvHZaYRSYrNvatve+Iyt2PiILKCD0I=
+			ACkljhnJ+J52bJUyD8r4AzNt2E2vA3eUueF2UPA4Hw0=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mwDUE2+JzcjYE0spQME8ze2kop9JUkQPT35Ee2zq/E=
+			Lc0WSJfgp8YT7cAXrB5yEo93YJ0MRe31VrDdvCb//H4=
 			</data>
 		</dict>
 		<key>Modules/HorizonClient.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1KM4eTa/JhGxd3PCHk4t2HGxQCV+g1jrBOqM454DHyA=
+			83jcTSHpeUOcSe951thgLPOTcAB6oixIUM3YjvsBdoQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

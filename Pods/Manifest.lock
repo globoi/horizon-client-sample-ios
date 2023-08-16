@@ -1,16 +1,16 @@
 PODS:
-  - HorizonClient (3.3.1)
+  - HorizonClient (3.3.2)
 
 DEPENDENCIES:
-  - HorizonClient (~> 3.3.1)
+  - HorizonClient (~> 3.3.2)
 
 SPEC REPOS:
   https://github.com/globoi/pods-repository:
     - HorizonClient
 
 SPEC CHECKSUMS:
-  HorizonClient: 7c694d0c5c56cb79a129dbb33aad162ff92a12da
+  HorizonClient: 2c5d66a8fefb6bc42895643a321045a46b655c68
 
-PODFILE CHECKSUM: a5b8a564b37128d901ba00a7c4a21d039b8b1a22
+PODFILE CHECKSUM: 2891a7d13605106595103780a0f277bedf99cda0
 
 COCOAPODS: 1.11.3
